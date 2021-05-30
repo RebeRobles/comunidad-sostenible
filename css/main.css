@@ -1,0 +1,171 @@
+/* Inserta tu codigo aqui */
+* {
+    margin: 0%;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-grey {
+    color: rgb(83, 88, 95);
+}
+
+.pd-lr-10 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wrapper {
+    width: 1500px;
+    min-height: 900px;
+    margin: 0% auto;
+}
+
+.header {
+    width: 90%;
+}
+
+    .header .logo {
+        width: 100px;
+        height: 80px;
+        margin: 20px 70px; 
+        vertical-align: middle;  
+    }
+
+    .header .navbar {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .header li {
+        display: inline;
+        padding: 20px;
+    }
+
+    .header img {
+        height: 600px;
+    }
+
+.section1 {
+    width: 45%;
+    min-height: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .section1 .img-sign {
+        width: 20%;    
+    }
+
+    .section1 .metodologia {
+        background: url(/img/fondo.jpg);
+        width: 90%;
+        min-height: 350px;
+    }
+    
+    .section1 .bg-img-block {
+        width: 10%;
+    }
+
+    .section1 .metodologia p {
+        text-align: center;
+    }
+   
+.section2 {
+    width: 100%;
+    display: inline-block;   
+}
+
+    .section2 .icons {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+.section3 {
+    width: 90%;
+}
+
+    .section3 img {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+               
+    .section3 .proyecto1 {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .section3 .proyecto2 {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.section4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .section4 .equipo {
+        width: 40%;
+        margin-left: 4%;
+        margin-right: 4%;
+        display: inline-block;
+    }
+
+    .img_equipo {
+        border-radius: 50%;
+    }
+
+    .redes {
+        width: 5%;
+    } 
+    
+ 
+.section5 {
+    background-image: url(/img/fondo2.jpg);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    .actividad {
+        width: 30%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .img-blog {
+        width: 80%;        
+    }
+
+.rrss {
+    width: 90%;
+    display: inline-block;
+}
+
+    .rrss1 {
+        width: 20%;
+        height: 200px;
+        border: 1px solid white;
+        border-collapse: collapse;
+        display: inline-block;
+    }
+
+    .rrss img {
+        width: 25%;
+        display: block;
+        margin-left: auto; 
+    }
+
+.footer h5 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
