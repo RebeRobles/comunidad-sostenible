@@ -9,8 +9,12 @@
     margin-right: auto;
 }
 
-.text-grey {
+.text-gray {
     color: rgb(83, 88, 95);
+}
+
+.text-height {
+    font-size: 1.2em;
 }
 
 .pd-lr-10 {
@@ -70,12 +74,7 @@
         width: 10%;
     }
 
-    .section1 .metodologia p {
-        text-align: center;
-    }
-   
 .section2 {
-    width: 100%;
     display: inline-block;   
 }
 
@@ -90,18 +89,11 @@
 }
 
     .section3 img {
-        width: 100%;
         padding-left: 5%;
         padding-right: 5%;
     }
                
-    .section3 .proyecto1 {
-        width: 40%;
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    .section3 .proyecto2 {
+    .section3 .proyecto {
         width: 40%;
         display: inline-block;
         vertical-align: top;
@@ -123,7 +115,7 @@
         border-radius: 50%;
     }
 
-    .redes {
+    .redes{
         width: 5%;
     } 
     
@@ -145,7 +137,7 @@
     }
 
 .rrss {
-    width: 90%;
+    width: 95%;
     display: inline-block;
 }
 
@@ -153,14 +145,22 @@
         width: 20%;
         height: 200px;
         border: 1px solid white;
-        border-collapse: collapse;
         display: inline-block;
     }
 
     .rrss img {
         width: 25%;
-        display: block;
-        margin-left: auto; 
+        vertical-align: middle;
+        padding-left: 30%;
+    }
+
+    .rrss .img-email {
+        height: 71px;
+    }
+
+    .footer .rrss .rrss1 p {
+        display: inline-block;
+        vertical-align: middle;
     }
 
 .footer h5 {
